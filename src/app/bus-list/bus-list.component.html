@@ -1,0 +1,39 @@
+<h2>User-list</h2>
+<table class="table table -striped">
+<thead>
+
+    <tr>
+        
+        <th>Bus Number</th>
+        <th>Date</th>
+        <th>Destination City</th>
+        <th>Fare</th>
+        <th>From_City</th>
+        <th>time</th>
+        <th>User ID</th>
+
+
+    </tr>
+<tbody>
+<tr *ngFor = "let bus of buses">
+  <td>{{bus.busNo}}</td>
+  <td>{{bus.date}}</td>
+  <td>{{bus.destinationCity}}</td>
+  <td>{{bus.fare}}</td>
+  <td>{{bus.fromCity}}</td>
+  <td>{{bus.time}}</td>
+  <td>{{bus.userId}}</td>
+
+
+
+
+
+</tr>
+</tbody>
+
+
+
+
+
+
+</table>

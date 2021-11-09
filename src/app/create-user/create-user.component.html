@@ -1,0 +1,46 @@
+
+<div class="col-md-8 offset-md-3">
+<h3>Create User</h3>
+<form (ngSubmit)="onSubmit()">
+
+    <div class="form group">
+        <label>Age </label>
+        <input type="text" class="form-control" id="Age"
+            [(ngModel)]="user.age"name="age">
+    </div>
+    
+    <div class="form group">
+        <label>Email </label>
+        <input type="text" class="form-control" id="email"
+            [(ngModel)]="user.email"name="email">
+    </div>
+
+    <div class="form group">
+        <label>Gender </label>
+        <input type="text" class="form-control" id="gender"
+            [(ngModel)]="user.gender"name="gender">
+    </div>
+
+    <div class="form group">
+        <label>Name </label>
+        <input type="text" class="form-control" id="name"
+            [(ngModel)]="user.name"name="name">
+    </div>
+    
+    <div class="form group">
+        <label>Password </label>
+        <input type="text" class="form-control" id="password"
+            [(ngModel)]="user.password"name="password">
+    </div>
+
+    <div class="form group">
+        <label>Phone Number </label>
+        <input type="text" class="form-control" id="phoneNo"
+            [(ngModel)]="user.phoneNo"name="phoneNo">
+    </div>
+
+    <button class="btn btn-success"type="submit">Submit</button>
+
+
+</form>
+</div>
